@@ -9,15 +9,15 @@ export const ProjectsSection = () => {
 				<div className="space-y-8 sm:space-y-12">
 					{[
 						{
-							title: 'E-commerce PWA',
-							description: 'High-performance Progressive Web App with offline capabilities',
+							title: 'Dineflow',
+							description: 'Smart kitchen management system supported with predictive AI capabilities',
 							metrics: {
-								performance: 98,
-								accessibility: 100,
+								performance: 84,
+								accessibility: 96,
 								seo: 100,
 							},
-							techDetails: ['Service Worker implementation', 'IndexedDB for offline data', 'Streaming SSR', 'Dynamic code splitting'],
-							image: '/code.jpg',
+							techDetails: ['Next.js for frontend development', 'SARIMAX to forecast future trends', 'Real-time order tracking', 'Automated inventory restocking feature'],
+							image: '/Dineflow.png',
 						},
 						{
 							title: 'Real-time Collaboration Platform',
@@ -66,6 +66,7 @@ export const ProjectsSection = () => {
 
 								<div className="relative h-full min-h-[300px] lg:min-h-full">
 									<Image src={project.image} alt={project.title} fill className="object-cover" sizes="(max-width: 1024px) 100vw, 50vw" />
+									{/* Here I'll put a link (an 'a' tag) that will go to the project IF that project has a link */}
 									<div className="absolute inset-0 bg-gradient-to-b lg:bg-gradient-to-r from-[#21262D] via-transparent to-transparent lg:via-[#21262D]/20 lg:to-[#21262D]/40"></div>
 								</div>
 							</div>
