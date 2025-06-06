@@ -38,11 +38,11 @@ export const metadata: Metadata = {
 	openGraph: {
 		title: 'Brandon Hamilton - Web Developer Portfolio',
 		description: 'Passionate web developer crafting modern and engaging digital experiences. Explore my projects and web development expertise.',
-		url: 'https://your-domain.com',
+		url: 'https://portfolio-may-2025-three.vercel.app/',
 		siteName: 'Brandon Hamilton - Portfolio',
 		images: [
 			{
-				url: '/og-image.jpg',
+				url: '../public/Brandon_metadata_pic.jpg',
 				width: 1200,
 				height: 630,
 				alt: 'Brandon Hamilton - Web Developer Portfolio',
@@ -50,13 +50,6 @@ export const metadata: Metadata = {
 		],
 		locale: 'en_US',
 		type: 'website',
-	},
-	twitter: {
-		card: 'summary_large_image',
-		title: 'Brandon Hamilton - Web Developer',
-		description: 'Passionate web developer crafting modern and engaging digital experiences. Explore my projects and web development expertise.',
-		creator: '@yourusername',
-		images: ['/og-image.jpg'],
 	},
 	robots: {
 		index: true,

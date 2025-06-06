@@ -30,24 +30,7 @@ export const ProjectsSection = () => {
               ],
               image: "/Dineflow.png",
               liveUrl: "https://legendary-fox-495ba2.netlify.app/",
-            },
-            {
-              title: "Real-time Collaboration Platform",
-              description: "WebSocket-based platform with conflict resolution. ",
-              metrics: {
-                performance: 95,
-                accessibility: 98,
-                seo: 100,
-              },
-              techDetails: [
-                "WebSocket optimization",
-                "CRDT implementation",
-                "Custom state management",
-                "WebRTC integration",
-              ],
-              image: "/code.jpg",
-              liveUrl: "",
-            },
+            }
           ].map((project) => (
             <div
               key={project.title}
